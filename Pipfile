@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+pytest = "*"
+v = {editable = true,version = "*"}
+pytest-cov = "*"
+pytest-sugar = "*"
+
+[pipenv]
+allow_prereleases = true

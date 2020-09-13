@@ -1,0 +1,20 @@
+---
+name: cmpsc-100-week-01-lab
+break: true
+indent: 4
+---
+
+Week 01 - Lab - The Lousy Lottery.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "1337" --count 2
+    MatchFileFragment --fragment "109" --count 1 --exact
+    MatchFileFragment --fragment "50.0" --count 1 --exact
+    MatchFileFragment --fragment "5.45" --count 1 --exact
+    MatchFileFragment --fragment "232" --count 2 --exact
+    MatchFileFragment --fragment "696" --count 1 --exact
+
+reflection.md:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountFileWords --count 250
+    CountFileParagraphs --count 5
