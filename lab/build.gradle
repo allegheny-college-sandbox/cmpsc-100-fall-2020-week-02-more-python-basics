@@ -65,3 +65,27 @@ checkstyle {
   maxErrors = 0
   configFile = new File(rootDir, "config/checkstyle/google_checks.xml")
 }
+
+task cleanup(type: Exec) {
+ commandLine "sh",".cleanup.sh"
+}
+
+task convert(type: Exec) {
+  commandLine "jupyter","nbconvert","--to","python","*.ipynb"
+}
+
+task rename(type: Exec) {
+  commandLine "sh",".rename.sh"
+}
+
+task teardown(type: Exec) {
+  commandLine "sh",".cleanup.sh"  
+}
+
+build.dependsOn cleanup
+build.dependsOn convert
+build.dependsOn rename
+grade.dependsOn cleanup
+grade.dependsOn convert
+grade.dependsOn rename
+grade.finalizedBy teardown

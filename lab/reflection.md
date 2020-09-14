@@ -1,19 +1,23 @@
-# CMPSC 100: Lab 1 reflection
+# CMPSC 100: Lab 2 reflection
 
-`TODO`
+The Professor
 
-## Describe one challenge that you encountered during the lab and how you overcame it.
+## Describe the largest challenge that you encountered during the lab and how you overcame it.
 
-`TODO`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus et dui at elementum. Ut est libero, mattis non diam sit amet, malesuada pretium arcu. Nunc mollis sollicitudin gravida. Nullam semper eleifend dignissim. Vestibulum non urna blandit, finibus justo a, porta leo. Vivamus eget leo vel mi luctus posuere eu id turpis. Nulla lacus ex, porta quis ipsum eget, bibendum dictum diam. Etiam maximus porta nunc ac varius. Ut ac nunc velit. Sed ultrices ex vitae sem commodo, ut luctus eros commodo. Nullam ultrices sapien non nibh eleifend cursus. 
 
-## Reflect on your successes: where were you most successful this week?
+## Summarize the various ways that your `if` and `while` statements modified the "flow of control."
 
-`TODO`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus et dui at elementum. Ut est libero, mattis non diam sit amet, malesuada pretium arcu. Nunc mollis sollicitudin gravida. Nullam semper eleifend dignissim. Vestibulum non urna blandit, finibus justo a, porta leo. Vivamus eget leo vel mi luctus posuere eu id turpis. Nulla lacus ex, porta quis ipsum eget, bibendum dictum diam. Etiam maximus porta nunc ac varius. Ut ac nunc velit. Sed ultrices ex vitae sem commodo, ut luctus eros commodo. Nullam ultrices sapien non nibh eleifend cursus. 
 
-## In your own words, name and describe the different data types we studied this week.
+## How did `booleans` work in this lab? What is their relationship to the `if` and `while` statements?
 
-`TODO`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus et dui at elementum. Ut est libero, mattis non diam sit amet, malesuada pretium arcu. Nunc mollis sollicitudin gravida. Nullam semper eleifend dignissim. Vestibulum non urna blandit, finibus justo a, porta leo. Vivamus eget leo vel mi luctus posuere eu id turpis. Nulla lacus ex, porta quis ipsum eget, bibendum dictum diam. Etiam maximus porta nunc ac varius. Ut ac nunc velit. Sed ultrices ex vitae sem commodo, ut luctus eros commodo. Nullam ultrices sapien non nibh eleifend cursus. 
 
-## Does G. Wiz have enough for the hat?
+## How does this lab challenge or support the way you've been thinking about variables so far this semester?
 
-`TODO`
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus et dui at elementum. Ut est libero, mattis non diam sit amet, malesuada pretium arcu. Nunc mollis sollicitudin gravida. Nullam semper eleifend dignissim. Vestibulum non urna blandit, finibus justo a, porta leo. Vivamus eget leo vel mi luctus posuere eu id turpis. Nulla lacus ex, porta quis ipsum eget, bibendum dictum diam. Etiam maximus porta nunc ac varius. Ut ac nunc velit. Sed ultrices ex vitae sem commodo, ut luctus eros commodo. Nullam ultrices sapien non nibh eleifend cursus. 
+
+## Is Ulysses safe?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus et dui at elementum. Ut est libero, mattis non diam sit amet, malesuada pretium arcu. Nunc mollis sollicitudin gravida. Nullam semper eleifend dignissim. Vestibulum non urna blandit, finibus justo a, porta leo. Vivamus eget leo vel mi luctus posuere eu id turpis. Nulla lacus ex, porta quis ipsum eget, bibendum dictum diam. Etiam maximus porta nunc ac varius. Ut ac nunc velit. Sed ultrices ex vitae sem commodo, ut luctus eros commodo. Nullam ultrices sapien non nibh eleifend cursus. 

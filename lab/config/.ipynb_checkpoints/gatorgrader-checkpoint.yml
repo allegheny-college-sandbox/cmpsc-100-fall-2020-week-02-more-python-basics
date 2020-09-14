@@ -1,20 +1,26 @@
 ---
-name: cmpsc-100-week-01-lab
+name: cmpsc-100-week-02-lab
 break: true
 indent: 4
 ---
 
-Week 01 - Lab - The Lousy Lottery.ipynb:
+Week 02 - Lab - The Catnap Caper.ipynb:
     ConfirmFileExists
-    MatchFileFragment --fragment "1337" --count 2
-    MatchFileFragment --fragment "109" --count 1 --exact
-    MatchFileFragment --fragment "50.0" --count 1 --exact
-    MatchFileFragment --fragment "5.45" --count 1 --exact
-    MatchFileFragment --fragment "232" --count 2 --exact
-    MatchFileFragment --fragment "696" --count 1 --exact
+    MatchFileFragment --fragment "str(alice_years)" --count 1 --exact
+    MatchFileFragment --fragment "str(bob_years)" --count 1 --exact
+    MatchFileFragment --fragment "input(" --count 3 --exact
 
 reflection.md:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    CountFileWords --count 250
-    CountFileParagraphs --count 5
+    CountFileWords --count 300
+    CountFileParagraphs --count 6
+
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-1" --fragment "Alice receives 0 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-1" --fragment "Bob receives 3 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-2" --fragment "Alice receives 3 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-2" --fragment "Bob receives 0 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-3" --fragment "Alice receives 2 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-3" --fragment "Bob receives 2 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-4" --fragment "Alice receives 1 year(s)." --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Lab_-_The_Catnap_Caper.py < .inputs/.scenario-4" --fragment "Bob receives 1 year(s)." --count 1 --exact

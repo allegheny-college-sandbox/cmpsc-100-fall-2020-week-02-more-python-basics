@@ -1,25 +1,34 @@
 ---
-name: cmpsc-100-week-01-worksheets
+name: cmpsc-100-week-02-worksheets
 break: true
 indent: 4
 ---
 
-Week 01 - Worksheet 0 - Syntax - Expressions.ipynb:
+Week 02 - Worksheet 0 - Syntax - Data Types (booleans).ipynb:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    MatchFileFragment --fragment "19334.0" --count 1 --exact
-    MatchFileFragment --fragment "16.0" --count 2 --exact
-    MatchFileFragment --fragment "86.0" --count 1 --exact
+    MatchFileFragment --fragment "print(cats > dogs)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators <= snakes)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators < dogs)" --count 1 --exact
+    MatchFileFragment --fragment "print(cats == snakes)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators != dogs)" --count 1 --exact
+    MatchFileFragment --fragment "result = switch_a and switch_b" --count 2 --exact
+    MatchFileFragment --fragment "result = switch_d or switch_c" --count 1 --exact
+    MatchFileFragment --fragment "result = switch_a and switch_b or switch_d" --count 1 --exact
+    MatchFileFragment --fragment "result = not switch_c and switch_b" --count 1 --exact
     
-Week 01 - Worksheet 1 - Syntax - Assignments.ipynb:
+Week 02 - Worksheet 1 - Syntax - if statements.ipynb:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    MatchFileFragment --fragment "True" --count 2 --exact
+    MatchFileFragment --fragment "if counter == 5" --count 1 --exact
     
-Week 01 - Worksheet 2 - Data Types.ipynb:
+Week 02 - Worksheet 2 - Syntax - while loops.ipynb:
     ConfirmFileExists
     MatchFileFragment --fragment "TODO" --count 0 --exact
-    MatchFileFragment --fragment "4500" --count 3
-    MatchFileFragment --fragment "900.0" --count 1 --exact
-    MatchFileFragment --fragment "4050.0" --count 1 --exact
-    MatchFileFragment --fragment "print(" --count 3
+    MatchFileFragment --fragment "while number" --count 1 --exact
+    MatchFileFragment --fragment "int(number)" --count 1
+    MatchFileFragment --fragment "str(count)" --count 1
+    MatchFileFragment --fragment "str(sum)" --count 1
+
+MatchCommandFragment --command "python3 Week_02_-_Worksheet_1_-_Syntax_-_if_statements.py" --fragment "🎉🎉🎉You've opened the puzzle box!🎉🎉🎉" --count 1 --exact
+MatchCommandFragment --command "python3 Week_02_-_Worksheet_2_-_Syntax_-_while_loops.py < .inputs/.worksheet-inputs" --fragment "The sum of these 6 numbers -> 108" --count 1 --exact
